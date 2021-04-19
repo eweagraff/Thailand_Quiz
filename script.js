@@ -14,7 +14,7 @@ var hasGameStarted = false;
 var questions = [
   {
     question: "What is captial of Thailand?",
-    choices: ["Kathmandu", "Bangkok", "Bhutan", "Bandledesh"],
+    choices: ["Kathmandu", "Bangkok", "Bhutan", "Bangladesh"],
     answer: "Bangkok",
   },
   {
@@ -93,8 +93,11 @@ function answerClick(event) {
     alert("correct");
   } else {
     alert("wrong");
-    // -10seconds
+    timeLeft -= 10;
   }
   index++;
+
+  //if index is = 5 go to the all done page (hide questions and make final page visible)
+  //else go to next question
   nextQuestion();
 }
