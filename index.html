@@ -12,13 +12,13 @@
       <ul>
         <li><a id="highscores" href="#">View Highscores</a></li>
         <li>
-          <div id="timer">Time Left:</div>
+          <div id="timer">Quiz Timer</div>
         </li>
       </ul>
     </nav>
-    <h1>How much do you know about Thailand?</h1>
     <main>
       <div class="visible" id="start-page">
+        <h1>How much do you know about Thailand?</h1>
         <h2>Let's start the quiz and see what you know!</h2>
         <p>
           Try and answer as many questions as you can before the time runs out.
@@ -29,7 +29,14 @@
       </div>
       <div class="hidden" id="question-group">
         <h2 id="questions"></h2>
-        <div id="answers-button"></div>
+        <button class="button" id="answer-button1"></button>
+      </br>
+        <button class="button" id="answer-button2"></button>
+    </br>
+        <button class="button" id="answer-button3"></button>
+  </br>
+        <button class="button" id="answer-button4"></button>
+</br>
       </div>
       <div class="hidden" id="end-quiz">
         <h2>Quiz Finished</h2>
@@ -38,5 +45,6 @@
         <input type="text" id="initials" />
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
