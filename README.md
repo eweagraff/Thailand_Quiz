@@ -2,9 +2,10 @@
 
 ## Description
 
-The following is a multiple choice quiz on Thailand. The quiz was created using html, css and javascript. The HTML was created using divs, classes, id's and buttons to interact with. The javascript was created using the DOM, functions that involved a timer, revealing the questions and also storing the
+The following is a multiple choice quiz on Thailand. The quiz was created using html, css and javascript. The HTML was created using divs, classes, id's and buttons to interact with. The javascript was created using the DOM, functions that involved a timer, revealing the questions and also storing the scores.
 
-![Screenshot of professional portfolio page](assets/images/professionalportfoliowebpage.png)
+![Screenshot of quiz](assets/images/Thailandquizscreenshot.png)
+![Screenshot of quiz](assets/images/quizscreenshot.png)
 
 ## Credit:
 
@@ -12,7 +13,7 @@ Hannah Folk, my tutor, helped with reviewing my code and helped me make necesary
 
 ## Deployed Site:
 
-https://eweagraff.github.io/professional_portfolio/
+https://eweagraff.github.io/Thailand_Quiz/
 
 ## License:
 
