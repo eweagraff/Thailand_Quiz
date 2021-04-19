@@ -42,7 +42,7 @@ var questions = [
 var hasGameEnded = false;
 var endGameEl = document.querySelector("#end-quiz");
 var initials = "";
-var score = 0;
+var highScore = 0;
 var index = 0;
 
 //functions
@@ -90,14 +90,21 @@ function answerClick(event) {
   var userClick = event.target.textContent;
   var correctAnswer = questions[index].answer;
   if (userClick === correctAnswer) {
-    alert("correct");
+    alert("Correct!");
   } else {
-    alert("wrong");
+    alert("Wrong!");
     timeLeft -= 10;
   }
   index++;
-
-  //if index is = 5 go to the all done page (hide questions and make final page visible)
-  //else go to next question
-  nextQuestion();
+  if (index == 4) {
+    endQuiz();
+  } else {
+    nextQuestion();
+  }
+}
+function endQuiz() {
+  console.log(endQuiz);
+  hasGameEnded = true;
+  quizQuestion.classList.remove("hidden");
+  endGameEl.classList.add("visible");
 }
