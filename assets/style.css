@@ -1,0 +1,43 @@
+ul {
+  list-style: none;
+}
+
+#timer {
+  float: right;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.questions {
+  text-align: center;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: darkslateblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  color: darkslateblue;
+}
